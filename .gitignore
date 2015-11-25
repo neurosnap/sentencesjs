@@ -1,0 +1,3 @@
+*.swp
+./index.js
+node_modules

@@ -1,0 +1,24 @@
+{
+  "name": "sentencesjs",
+  "version": "0.0.1",
+  "description": "Converts a blob of text into a list of sentences",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neurosnap/sentencesjs"
+  },
+  "keywords": [
+    "sentence",
+    "tokenizer",
+    "text",
+    "nlp"
+  ],
+  "author": "Eric Bower",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^2.3.4"
+  }
+}
