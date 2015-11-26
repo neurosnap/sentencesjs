@@ -1,17 +1,9 @@
 Sentencesjs -- A Sentence Tokenizer for client/server JS
 ========================================================
 
-Build
------
-
 ```
-npm install -g browserify
-npm install
-```
+var Sentences = require('sentences');
 
-Use
----
-
-```
-var sentences = require('sentences');
+var tokenizer = new Sentences();
+tokenizer.tokenize("This is a sentence.  Here is another one!");
 ```
