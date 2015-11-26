@@ -66,7 +66,7 @@ describe("Test against NLTK's punkt sentence tokenizer output", function() {
       assert.equal(actual_sentences.length, expected_sentences.length);
 
       for (var j = 0; j < actual_sentences.length; j++) {
-        assert.equal(actual_sentences[j], expected_sentences[j]);
+        assert.equal(actual_sentences[j], expected_sentences[j].trim());
       }
     }
   });
